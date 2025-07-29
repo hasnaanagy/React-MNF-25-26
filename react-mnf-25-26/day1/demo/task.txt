@@ -1,0 +1,4 @@
+day-1 task :
+- from provided template ---> https://templates.webwave.me/tz47gb?_gl=1*22wlx3*_gcl_au*NzQ3MjE5MjUuMTc1Mzc2NzY4OA
+create navbar, footer,  section 1 and section 2 
+use props in section 2 to send dynamic data
