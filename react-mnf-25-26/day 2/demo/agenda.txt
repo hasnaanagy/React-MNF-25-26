@@ -1,0 +1,47 @@
+1-conditional rendering
+   --if statement
+   --ternary operator
+   --&&
+ // const isLoggedIn=false
+    // <>
+    //     {isLoggedIn?<Home/>:<Login/>}
+    //     <h1 style={{color:isLoggedIn?'red':'blue'}} >{isLoggedIn?'welcome in home':'welcome in login'}</h1>
+    // </>
+
+2-list rendering
+  //problem
+    {/* <ul>
+        <li>{users[0]}</li>
+        <li>hasnaa</li>
+        <li>hasnaa</li>
+        <li>hasnaa</li>
+        <li>hasnaa</li>
+    </ul>
+    </> */}
+
+    
+    //solution
+//         const users=['hasnaa','ahmed','ali','sara']
+//   return(
+//     <>
+//     <ul>
+//       {users.map((user,index)=>{
+//        return<li style={{color:'blue'}} key={index}>{user}</li>
+//       })}
+
+//     </ul>
+//     </>
+//   )
+
+
+
+
+
+
+3-state-state management
+  --hooks-->useState()
+
+4-Events
+
+5-Controlled components(form)
+
