@@ -1,0 +1,6 @@
+1-lefting state up
+2-continue react hooks
+   --useEffect---->component life cycle
+   --useRef
+
+3-call api in react (axios)
