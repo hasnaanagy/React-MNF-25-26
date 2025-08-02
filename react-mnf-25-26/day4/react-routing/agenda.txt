@@ -1,0 +1,12 @@
+1-react routing
+  --basic routing -- >SPA 
+  --protected routes
+  --shared layout
+  --nested routing 
+  --dynamic routing
+  --navigation (Link,Navigate(automatic redirection),useNavigate(programatically routing))
+  --useParams()--->destructure variables in route
+
+
+-----------------------------------
+2-useContext
