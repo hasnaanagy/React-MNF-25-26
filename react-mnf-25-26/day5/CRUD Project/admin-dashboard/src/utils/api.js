@@ -1,0 +1,16 @@
+import axios from "axios";
+
+const baseUrl = "http://localhost:3005/products";
+const getProducts = () => axios.get(baseUrl);
+const getProductById = (id) => axios.get(`${baseUrl}/${id}`);
+const addProduct = (product) => axios.post(baseUrl, product);
+const updateProduct = (id, product) => axios.patch(`${baseUrl}/${id}`, product);
+const deleteProduct = (id) => axios.delete(`${baseUrl}/${id}`);
+
+export {
+  getProducts,
+  getProductById,
+  deleteProduct,
+  addProduct,
+  updateProduct,
+};
